@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Sport</title>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--BoxIcons & Animations-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="nav conteiner">
+            <a href="#" class="logo">Sports Shop</a>
+            <!--Icon-->
+            <i class='bx bx-shopping-bag animate__animated animate__bounceInRight' id="cart-icon" ></i>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">TU CARRITO</h2>
+                <!--Content-->
+                <div class="cart-content"></div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price"><span id="numero">$0</span></div>
+                </div>
+                <!--Buy Buttom-->
+                <button type="button" class="btn-buy">Comprar Ahora</button>
+                <!--Cart Close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--Products-->
+    <section class="shop container">
+        <h2 class="section-title animate__animated animate__heartBeat" >Productos Destacados</h2>
+        <!--Content-->
+        <div class="section-products">
+            <!--Box 1-->
+            <div class="product-box">
+                 <img src="img/product1.jpg" alt="" class="product-img">
+                 <h2 class="product-title">REMERA ADIDAS POLO CASUAL</h2>
+                 <spam class="price">$5.000</spam>
+                 <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+             <!--Box 2-->
+             <div class="product-box">
+                <img src="img/product2.jpg" alt="" class="product-img">
+                <h2 class="product-title">ADIDAS AIRPODS PRO</h2>
+                <spam class="price">$14.000</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 3-->
+            <div class="product-box">
+                <img src="img/product3.jpg" alt="" class="product-img">
+                <h2 class="product-title">CAMPERA ADIDAS ESSENTIALS HOMBRE</h2>
+                <spam class="price">$20.000</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 4-->
+            <div class="product-box">
+                <img src="img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">BOTELLA TERMICA DEPORTIVA</h2>
+                <spam class="price">$2.500</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 5-->
+            <div class="product-box">
+                <img src="img/product5.jpg" alt="" class="product-img">
+                <h2 class="product-title">ANTEOJOS DE SOL RAY-BAN AVIATOR</h2>
+                <spam class="price">$18.000</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 6-->
+            <div class="product-box">
+                <img src="img/product6.jpg" alt="" class="product-img">
+                <h2 class="product-title">GORRA ADIDAS PRIMEBLUE RUNNER</h2>
+                <spam class="price">$5.999</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+           </div>
+            <!--Box 7-->
+            <div class="product-box">
+                <img src="img/product7.jpg" alt="" class="product-img">
+                <h2 class="product-title">MOCHILA ESTILO URBANA</h2>
+                <spam class="price">$7.400</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 8-->
+            <div class="product-box">
+                <img src="img/product8.jpg" alt="" class="product-img">
+                <h2 class="product-title">ZAPATILLAS ULTRABOOST 22</h2>
+                <spam class="price">$29.000</spam>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    <!--Link To JS-->
+    <script src="main.js"></script>
+    <script src="getProduct.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+    {
+        
+        "name": "REMERA ADIDAS POLO CASUAL",
+        "price": 5.000,
+        "img": "img/product1.jpg"
+        
+    },
+    {
+        
+        "name": "ADIDAS AIRPODS PRO",
+        "price": 14.000,
+        "img": "img/product2.jpg"
+        
+    },
+    {
+        
+        "name": "CAMPERA ADIDAS ESSENTIALS HOMBRE",
+        "price": 20.000,
+        "img": "img/product3.jpg"
+        
+    },
+    {
+        
+        "name": "BOTELLA TERMICA DEPORTIVA",
+        "price": 2.500,
+        "img": "img/product4.jpg"
+        
+    },
+    {
+        
+        "name": "ANTEOJOS DE SOL RAY-BAN AVIATOR",
+        "price": 18.000,
+        "img": "img/product5.jpg"
+        
+    },
+    {
+        
+        "name": "GORRA ADIDAS PRIMEBLUE RUNNER",
+        "price": 5.999,
+        "img": "img/product6.jpg"
+        
+    },
+    {
+        
+        "name": "MOCHILA ESTILO URBANA",
+        "price": 7.400,
+        "img": "img/product7.jpg"
+        
+    },
+    {
+        
+        "name": "ZAPATILLAS ULTRABOOST 22",
+        "price": 29.000,
+        "img": "img/product8.jpg"
+        
+    },
+    {
+        
+        "name": "REMERA 3 RAYAS EDICION ARGENTINA",
+        "price": 7.499,
+        "img": "img/product9.jpg"
+        
+    },
+    {
+        
+        "name": "PANTALÓN ICONS BOCA JUNIORS",
+        "price": 12.499,
+        "img": "img/product10.jpg"
+        
+    },
+    {
+        
+        "name": "REMERA ADICOLOR",
+        "price": 17.800,
+        "img": "img/product11.jpg"
+        
+    },
+    {
+        
+        "name": "BUZO ESSENTIALS",
+        "price": 8.499,
+        "img": "img/product12.jpg"
+        
+    }
+]
